@@ -1,0 +1,4 @@
+CREATE TABLE IF NOT EXISTS admin2( admin2_id INTEGER UNSIGNED PRIMARY KEY AUTO_INCREMENT
+, country_id INTEGER
+, admin_type INTEGER 
+, admin2_name VARCHAR(50));
