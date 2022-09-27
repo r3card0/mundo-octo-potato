@@ -24,7 +24,8 @@ cur = connectdb().cursor()
 connection = connectdb()
 
 def clear():
-    pass
+    continent_entry.delete(0,END)
+    
 
 def submit():
     pass
