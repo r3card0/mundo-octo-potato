@@ -25,10 +25,17 @@ connection = connectdb()
 
 def clear():
     continent_entry.delete(0,END)
-    
+
 
 def submit():
-    pass
+    cur.execute(""" INSERT INTO continents(continent_name)
+        VALUES(%)""", (continent_entry.get())
+        )
+
+    connection.commit()
+    connection.close()
+
+    clear()
 
 # set label
 continent = StringVar()
