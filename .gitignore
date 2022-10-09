@@ -3,3 +3,4 @@ database.ini
 config.py
 __pycache__/
 .vscode/
+scripts/test_connection.py
