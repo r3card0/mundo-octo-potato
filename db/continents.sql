@@ -1,0 +1,3 @@
+CREATE TABLE IF NOT EXISTS continents( continent_id INTEGER UNSIGNED PRIMARY KEY AUTO_INCREMENT
+, continent_name VARCHAR(30)
+, insert_date DATETIME);
