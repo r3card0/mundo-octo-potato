@@ -1,3 +1,5 @@
 venv_mun/
 database.ini
 config.py
+__pycache__/
+.vscode/
