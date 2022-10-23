@@ -16,7 +16,7 @@ insert_ = insert_admin_type()
 insert_date = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
 
 def insert_data():
-    admin_type = 'state'
+    admin_type = 'municipality'
     data = (admin_type,insert_date)
 
     cur.execute(insert_,data)
