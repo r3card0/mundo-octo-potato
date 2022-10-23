@@ -19,3 +19,7 @@ def insert_admin_type():
 def insert_admin_2():
     insert_ = "INSERT INTO admin2(admin2_name,admin_type,country_id) VALUES(%s,%s,%s)"
     return insert_
+
+def insert_cities():
+    insert_ = "INSERT INTO cities(city_name,admin2_id) VALUES(%s,%s)"
+    return insert_
