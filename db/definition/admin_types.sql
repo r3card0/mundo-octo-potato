@@ -1,0 +1,3 @@
+CREATE TABLE IF NOT EXISTS admin_types( admin_type_id INTEGER UNSIGNED PRIMARY KEY AUTO_INCREMENT
+, admin_type VARCHAR(50)
+, insert_date DATETIME);
